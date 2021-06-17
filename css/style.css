@@ -1,0 +1,129 @@
+:root {
+  --mainred: rgb(255, 115, 0);
+  --mainwhite: #fff;
+}
+
+.header__link-active {
+  background-color: var(--mainred);
+}
+
+.header__link:hover,
+.nav-pills .nav-link.active {
+  background-color: var(--mainred);
+}
+
+.section-title span {
+  position: relative;
+  display: inline-block;
+  left: 5%;
+  top: 50%;
+  width: 150px;
+  height: 2px;
+  transform: translateY(-50%);
+  background-color: rgb(187, 135, 38);
+}
+.section__btn {
+  border: 1px solid var(--mainred);
+}
+
+.section__btn:hover {
+  background: var(--mainred);
+  color: #fff;
+}
+
+.section__btn-active {
+  background: var(--mainred);
+}
+
+.section__btn-active:hover {
+  background-color: var(--mainwhite);
+  color: var(--mainred) !important;
+}
+.double-check,
+.footer__address {
+  color: var(--mainred);
+}
+
+.service__card {
+  min-height: 106px;
+}
+.service__card:hover {
+  background-color: var(--mainred);
+  color: #fff;
+}
+
+.skills__img {
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  left: -20%;
+  transform: translateY(-50%);
+}
+
+.card-header {
+  position: relative;
+  height: 60px;
+}
+.card__deg {
+  position: absolute;
+  display: inline-block;
+  background: var(--mainred);
+  margin: auto;
+  padding: 0 40px 0 40px;
+  width: 200px;
+  top: 28px;
+  right: -88px;
+  /* transform: translateY(-30px); */
+  transform: rotate(40deg);
+}
+
+.pricing__card-header {
+  background-color: var(--mainred);
+}
+
+.pricing__card {
+  border: 1px solid var(--mainred);
+}
+.portfolio {
+  overflow: hidden;
+}
+
+.portfolio-img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.portfolio__nav {
+  cursor: pointer;
+}
+.team img {
+  min-height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+.contact__btn {
+  background-color: var(--mainred);
+  border: 1px solid rgb(146, 136, 136);
+}
+.footer__link {
+  background-color: var(--mainred);
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 576px) {
+  .gallery-item {
+    columns: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-item {
+    columns: 3;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gallery-item {
+    columns: 4;
+  }
+}
